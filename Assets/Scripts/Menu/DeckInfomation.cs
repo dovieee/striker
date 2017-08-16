@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
 
 public static class DeckInfomation {
-	public static List<string> selectedInfomation = new List<string>();
+	public static List<DeckItemData> selectedInfomation = new List<DeckItemData>();
 }

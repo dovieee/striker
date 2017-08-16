@@ -2,19 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class State{
+public interface IState{
 
 	// Use this for initialization
-	public virtual void Start () {
-		
-	}
+	void Start ();
 	
 	// Update is called once per frame
-	public virtual void Update () {
-		
-	}
+	void Update ();
 
-	public virtual void Finish(){
-		
-	}
+	void Finish();
 }

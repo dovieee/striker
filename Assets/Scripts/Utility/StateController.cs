@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StateContolol {
-	State currentState;
+	IState currentState;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +20,7 @@ public class StateContolol {
 		currentState.Finish();
 	}
 
-	void changeState(State newState)
+	void changeState(IState newState)
 	{
 		currentState = newState;
 	}

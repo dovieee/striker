@@ -27,7 +27,7 @@ public class UIDeck : MonoBehaviour {
 	void Update () {
 		// if selected > 4 
 		// goto game
-		if (Input.GetKey (KeyCode.Space)) {
+		if (Input.GetKey (KeyCode.Z)) {
 			SceneManager.LoadScene ("game");
 		}
 	}
