@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour {
 
 			// initialize game player data
 			players[i].DeckItemData = selected;
-			players [i].GetComponent<SpriteRenderer> ().sprite = selected.sprite;
+			players[i].GetComponent<SpriteRenderer> ().sprite = selected.sprite;
 
 
 		}
