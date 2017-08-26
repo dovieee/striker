@@ -20,7 +20,7 @@ public class StateContolol {
 		currentState.Finish();
 	}
 
-	void changeState(IGameState newState)
+	void ChangeState(IGameState newState)
 	{
 		currentState = newState;
 	}
